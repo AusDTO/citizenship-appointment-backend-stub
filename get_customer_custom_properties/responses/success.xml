@@ -1,0 +1,172 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCustomer/GetCustomPropertiesResponse</a:Action>
+      <a:RelatesTo>uuid:c1a4dee4-1468-4110-91f0-1391f0e632ec</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetCustomPropertiesResponse xmlns="http://www.qnomy.com/Services">
+         <GetCustomPropertiesResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>1</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>0_Correspondant_Title_Name</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>Dr. Martin Smith</b:PropertyValue>
+               <b:ValueList/>
+               <b:ValueType>Text</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>2</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>1_Correspondant_Street</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>35 Spring Street, Bondi Junction</b:PropertyValue>
+               <b:ValueList/>
+               <b:ValueType>Text</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>3</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>2_Correspondant_State</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>NSW</b:PropertyValue>
+               <b:ValueList/>
+               <b:ValueType>Text</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>4</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>3_Correspondant_Post_Code</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>2022</b:PropertyValue>
+               <b:ValueList/>
+               <b:ValueType>Text</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>5</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>true</b:Mandatory>
+               <b:Name>Application Type</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>Paper</b:PropertyValue>
+               <b:ValueList>Paper,e-lodged</b:ValueList>
+               <b:ValueType>List</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>1</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>6</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>Appointment Types</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>IO_CIT_APPT</b:PropertyValue>
+               <b:ValueList>STD_CIT_APPT,IO_CIT_APPT,AST_CIT_APPT</b:ValueList>
+               <b:ValueType>List</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>0</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>false</b:HideFromAgents>
+               <b:Id>7</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>InitialServiceExtRef</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue>PBT_CI_30m</b:PropertyValue>
+               <b:ValueList>SYD_CI_30m,MEL_CI_30m,PAR_CI_30m,PBT_CI_30m</b:ValueList>
+               <b:ValueType>List</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+            <b:CustomProperty>
+               <b:AccessType>1</b:AccessType>
+               <b:Active>false</b:Active>
+               <b:ActiveDirectoryName i:nil="true"/>
+               <b:DefaultValue/>
+               <b:Description i:nil="true"/>
+               <b:ExtRef i:nil="true"/>
+               <b:FunctionName/>
+               <b:GroupIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+               <b:HideFromAgents>true</b:HideFromAgents>
+               <b:Id>8</b:Id>
+               <b:ImageSource i:nil="true"/>
+               <b:Mandatory>false</b:Mandatory>
+               <b:Name>Town</b:Name>
+               <b:ObjectType>User</b:ObjectType>
+               <b:PropertyValue/>
+               <b:ValueList/>
+               <b:ValueType>Text</b:ValueType>
+               <b:ValuesFunction i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+            </b:CustomProperty>
+         </GetCustomPropertiesResult>
+      </GetCustomPropertiesResponse>
+   </s:Body>
+</s:Envelope>

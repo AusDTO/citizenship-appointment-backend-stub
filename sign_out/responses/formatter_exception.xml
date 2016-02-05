@@ -1,0 +1,40 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher/fault</a:Action>
+      <a:RelatesTo>uuid:f31a55d4-624e-4e68-aa66-d3eaaaff80ed</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <s:Fault>
+         <s:Code>
+            <s:Value>s:Sender</s:Value>
+            <s:Subcode>
+               <s:Value xmlns:a="http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher">a:DeserializationFailed</s:Value>
+            </s:Subcode>
+         </s:Code>
+         <s:Reason>
+            <s:Text xml:lang="en-US">The formatter threw an exception while trying to deserialize the message: Error in deserializing body of request message for operation 'SignOut'. The value '?' cannot be parsed as the type 'Int32'.</s:Text>
+         </s:Reason>
+         <s:Detail>
+            <ExceptionDetail xmlns="http://schemas.datacontract.org/2004/07/System.ServiceModel" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <HelpLink i:nil="true"/>
+               <InnerException>
+                  <HelpLink i:nil="true"/>
+                  <InnerException>
+                     <HelpLink i:nil="true"/>
+                     <InnerException i:nil="true"/>
+                     <Message>Input string was not in a correct format.</Message>
+                     <StackTrace>at System.Number.StringToNumber</StackTrace>
+                     <Type>System.FormatException</Type>
+                  </InnerException>
+                  <Message>The value '?' cannot be parsed as the type 'Int32'.</Message>
+                  <StackTrace>at System.Xml.XmlConverter.ToInt32(String value)</StackTrace>
+                  <Type>System.Xml.XmlException</Type>
+               </InnerException>
+               <Message>The formatter threw an exception while trying to deserialize the message: Error in deserializing body of request message for operation 'SignOut'. The value '?' cannot be parsed as the type 'Int32'.</Message>
+               <StackTrace>at System.ServiceModel.Dispatcher.PrimitiveOperationFormatter</StackTrace>
+               <Type>System.ServiceModel.Dispatcher.NetDispatcherFaultException</Type>
+            </ExceptionDetail>
+         </s:Detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

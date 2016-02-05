@@ -11,6 +11,10 @@ var responseMsgs = {
   invalidCredentialsMessage: {
     status: 500,
     file: 'invalid_credentials.xml'
+  },
+  alreadySignedInMessage: {
+    status: 500,
+    file: 'already_signed_in.xml'
   }
 };
 

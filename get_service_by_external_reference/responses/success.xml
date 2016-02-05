@@ -1,0 +1,73 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcService/GetByExtRefResponse</a:Action>
+      <a:RelatesTo>uuid:042bc962-6c55-4e69-8777-7c5d39a2ed58</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetByExtRefResponse xmlns="http://www.qnomy.com/Services">
+         <GetByExtRefResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:Service>
+               <b:Active>true</b:Active>
+               <b:Description/>
+               <b:ExtRef>SYD_CI_30m</b:ExtRef>
+               <b:Id>1</b:Id>
+               <b:Name>Citizenship Appointments</b:Name>
+               <b:AnnouncementCategory/>
+               <b:AnnouncementLanguageCode>en</b:AnnouncementLanguageCode>
+               <b:AnnouncementReadOutStyle/>
+               <b:InvitationId>0</b:InvitationId>
+               <b:MaxQueueNumber i:nil="true"/>
+               <b:MinQueueNumber i:nil="true"/>
+               <b:OnCallAgainAudioMessage/>
+               <b:OnCallAgainLEDLocationMessage/>
+               <b:OnCallAgainLEDMessage/>
+               <b:OnCallAgainMessageType>Inherit</b:OnCallAgainMessageType>
+               <b:OnCallAgainPCMessage/>
+               <b:OnCallAgainSendAudioMessage>false</b:OnCallAgainSendAudioMessage>
+               <b:OnCallAgainSendLEDMessage>false</b:OnCallAgainSendLEDMessage>
+               <b:OnCallAgainSendPCMessage>false</b:OnCallAgainSendPCMessage>
+               <b:OnCallAudioMessage/>
+               <b:OnCallLEDLocationMessage/>
+               <b:OnCallLEDMessage/>
+               <b:OnCallPCMessage/>
+               <b:OnCallSendAudioMessage>false</b:OnCallSendAudioMessage>
+               <b:OnCallSendLEDMessage>false</b:OnCallSendLEDMessage>
+               <b:OnCallSendPCMessage>false</b:OnCallSendPCMessage>
+               <b:ScriptId>0</b:ScriptId>
+               <b:ServicePrefix/>
+               <b:TicketId>0</b:TicketId>
+               <b:AppointmentSchedulingClassificationGroupId>0</b:AppointmentSchedulingClassificationGroupId>
+               <b:AppointmentTypeRequired>false</b:AppointmentTypeRequired>
+               <b:AvatarMode>InheritServiceProfileTheme</b:AvatarMode>
+               <b:AvatarThemeId>0</b:AvatarThemeId>
+               <b:BrochureProfileId>0</b:BrochureProfileId>
+               <b:CalendarAccessType>AllCanWrite</b:CalendarAccessType>
+               <b:CalendarOpeningDays>0</b:CalendarOpeningDays>
+               <b:CalendarOpeningMethod>Manual</b:CalendarOpeningMethod>
+               <b:CalendarOwnerUserId>0</b:CalendarOwnerUserId>
+               <b:ClassificationGroupId>0</b:ClassificationGroupId>
+               <b:ComputedAvatarThemeId>0</b:ComputedAvatarThemeId>
+               <b:CustomerPatience>0</b:CustomerPatience>
+               <b:DistributionAdjustmentFactor>0</b:DistributionAdjustmentFactor>
+               <b:IdleTimePct>-1</b:IdleTimePct>
+               <b:LastNumberIssued>1003</b:LastNumberIssued>
+               <b:LastTicketCalled>C1006</b:LastTicketCalled>
+               <b:LimitAllowedAppointment>false</b:LimitAllowedAppointment>
+               <b:LocalTime>2016-02-05T14:56:29.69</b:LocalTime>
+               <b:MaxLockDuration>60</b:MaxLockDuration>
+               <b:MaxSeats>0</b:MaxSeats>
+               <b:ReceptionClassificationGroupId>0</b:ReceptionClassificationGroupId>
+               <b:SecondaryAvatarThemeId>0</b:SecondaryAvatarThemeId>
+               <b:ServiceLocationId>0</b:ServiceLocationId>
+               <b:ServiceProfileId>2</b:ServiceProfileId>
+               <b:ServiceTime>0</b:ServiceTime>
+               <b:ServiceTypeId>1</b:ServiceTypeId>
+               <b:ShowEntityId>false</b:ShowEntityId>
+               <b:UnitId>1</b:UnitId>
+               <b:WaitingAreaLocationId>0</b:WaitingAreaLocationId>
+               <b:WorkingHoursId>37</b:WorkingHoursId>
+            </b:Service>
+         </GetByExtRefResult>
+      </GetByExtRefResponse>
+   </s:Body>
+</s:Envelope>

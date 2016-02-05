@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcService/GetCalendarsResponse</a:Action>
+      <a:RelatesTo>uuid:763ec112-fbde-4af0-8efd-4553df345d17</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetCalendarsResponse xmlns="http://www.qnomy.com/Services">
+         <GetCalendarsResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"/>
+      </GetCalendarsResponse>
+   </s:Body>
+</s:Envelope>

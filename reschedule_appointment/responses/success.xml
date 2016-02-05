@@ -1,0 +1,47 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+	<s:Header>
+		<a:Action s:mustUnderstand="1">
+			http://www.qnomy.com/Services/IsvcProcess/RescheduleAppointmentResponse
+		</a:Action>
+		<a:RelatesTo>
+			urn:uuid:5116d8bd-5f46-4e97-9a5e-72708539cc16
+		</a:RelatesTo>
+	</s:Header>
+	<s:Body>
+		<RescheduleAppointmentResponse xmlns="http://www.qnomy.com/Services">
+			<RescheduleAppointmentResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+				<b:AppointmentId>1550</b:AppointmentId>
+				<b:CalendarId>23</b:CalendarId>
+				<b:CaseId>1712</b:CaseId>
+				<b:CustomerId>1</b:CustomerId>
+				<b:ProcessId>1728</b:ProcessId>
+				<b:QCode>C</b:QCode>
+				<b:QNumber>0</b:QNumber>
+				<b:RescheduleAppointmentData>
+					<b:AppointmentTypeId>1</b:AppointmentTypeId>
+					<b:AutoFreeUp>true</b:AutoFreeUp>
+					<b:CancelationReasonId>0</b:CancelationReasonId>
+					<b:ClassificationIds i:nil="true" xmlns:c="http://schemas.microsoft.com/2003/10/Serialization/Arrays"/>
+					<b:DateAndTime>2016-02-08T11:40:00</b:DateAndTime>
+					<b:ExtRef i:nil="true"/>
+					<b:ForceSimultaneousAppointment>true</b:ForceSimultaneousAppointment>
+					<b:ForceWastedDuration>true</b:ForceWastedDuration>
+					<b:IsWalkIn>false</b:IsWalkIn>
+					<b:LanguageCode>en</b:LanguageCode>
+					<b:Notes>Appointment rescheduled by Online Scheduling System</b:Notes>
+					<b:OriginalProcessId>1727</b:OriginalProcessId>
+					<b:PreventAutoQueue>false</b:PreventAutoQueue>
+					<b:Resources i:nil="true"/>
+					<b:ServiceId>1</b:ServiceId>
+					<b:Subject>Citizenship Appointment for 00000000001</b:Subject>
+					<b:UserId>1</b:UserId>
+				</b:RescheduleAppointmentData>
+				<b:ScriptResults>
+					<b:Messages/>
+					<b:ReturnCode>0</b:ReturnCode>
+				</b:ScriptResults>
+				<b:SetAppointmentData i:nil="true"/>
+			</RescheduleAppointmentResult>
+		</RescheduleAppointmentResponse>
+	</s:Body>
+</s:Envelope>

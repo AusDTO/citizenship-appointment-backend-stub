@@ -1,0 +1,21 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCustomer/GetByPersonalIdQFlowAPISecurityExceptionFault</a:Action>
+      <a:RelatesTo>uuid:22a5be74-c3c4-480e-bc77-a8961adc65bb</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <s:Fault>
+         <s:Code>
+            <s:Value>s:Sender</s:Value>
+         </s:Code>
+         <s:Reason>
+            <s:Text xml:lang="en-US">The current session was terminated by the server. (Invalid Session ID)</s:Text>
+         </s:Reason>
+         <s:Detail>
+            <QFlowAPISecurityException xmlns="http://schemas.datacontract.org/2004/07/QFlow.Web.API" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <ErrorType>InvalidAPISessionId</ErrorType>
+            </QFlowAPISecurityException>
+         </s:Detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

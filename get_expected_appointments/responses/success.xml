@@ -1,0 +1,27 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCustomer/GetExpectedAppointmentsResponse</a:Action>
+      <a:RelatesTo>uuid:c39ae3f5-225c-4043-bb97-e2eab4c80031</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetExpectedAppointmentsResponse xmlns="http://www.qnomy.com/Services">
+         <GetExpectedAppointmentsResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:CustomerGetExpectedAppointmentsResults>
+               <b:AppointmentDate>2016-02-26T14:40:00</b:AppointmentDate>
+               <b:AppointmentDuration>20</b:AppointmentDuration>
+               <b:AppointmentId>494</b:AppointmentId>
+               <b:AppointmentTypeId>1</b:AppointmentTypeId>
+               <b:AppointmentTypeName>Standard Citizenship Appointment</b:AppointmentTypeName>
+               <b:CaseId>638</b:CaseId>
+               <b:CustomerId>1</b:CustomerId>
+               <b:PreventAutoQueue>false</b:PreventAutoQueue>
+               <b:ProcessId>654</b:ProcessId>
+               <b:ServiceId>1</b:ServiceId>
+               <b:ServiceName>Citizenship Appointments</b:ServiceName>
+               <b:UnitName>Sydney</b:UnitName>
+               <b:UnitPath>\NSW\Sydney</b:UnitPath>
+            </b:CustomerGetExpectedAppointmentsResults>
+         </GetExpectedAppointmentsResult>
+      </GetExpectedAppointmentsResponse>
+   </s:Body>
+</s:Envelope>

@@ -1,0 +1,24 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcAppointmentType/GetByExtRefResponse</a:Action>
+      <a:RelatesTo>uuid:39fd9026-3901-4803-9c21-2ea1f7214824</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetByExtRefResponse xmlns="http://www.qnomy.com/Services">
+         <GetByExtRefResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:AppointmentType>
+               <b:Active>true</b:Active>
+               <b:Description/>
+               <b:ExtRef>STD_CIT_APPT</b:ExtRef>
+               <b:Id>1</b:Id>
+               <b:Name>Standard Citizenship Appointment</b:Name>
+               <b:ColorCode>1</b:ColorCode>
+               <b:Duration>20</b:Duration>
+               <b:IsRestricted>false</b:IsRestricted>
+               <b:ServiceTypeId>1</b:ServiceTypeId>
+               <b:ServiceTypeName/>
+            </b:AppointmentType>
+         </GetByExtRefResult>
+      </GetByExtRefResponse>
+   </s:Body>
+</s:Envelope>

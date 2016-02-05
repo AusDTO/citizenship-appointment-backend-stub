@@ -1,0 +1,89 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCalendar/GetDynamicSuggestedSlots2Response</a:Action>
+      <a:RelatesTo>uuid:4795ca40-4f49-433c-a893-ea0a0bcfe31a</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetDynamicSuggestedSlots2Response xmlns="http://www.qnomy.com/Services">
+         <GetDynamicSuggestedSlots2Result xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:AvailableSequences>
+               <b:CalendarDate>0001-01-01T00:00:00</b:CalendarDate>
+               <b:LocalTime>0001-01-01T00:00:00</b:LocalTime>
+               <b:Segments/>
+               <b:Sequences>
+                  <b:CalendarSlotSequence>
+                     <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                     <b:AllocatedToServiceName i:nil="true"/>
+                     <b:AppointmentId>0</b:AppointmentId>
+                     <b:AvatarId>0</b:AvatarId>
+                     <b:CalendarId>1609</b:CalendarId>
+                     <b:Date>2016-01-25T00:00:00</b:Date>
+                     <b:DisplayProperties i:nil="true"/>
+                     <b:Duration>90</b:Duration>
+                     <b:EndTime>630</b:EndTime>
+                     <b:FirstOrdinalNumber>0</b:FirstOrdinalNumber>
+                     <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
+                     <b:LockedByUserId>0</b:LockedByUserId>
+                     <b:ResourceId>0</b:ResourceId>
+                     <b:ServiceId>5</b:ServiceId>
+                     <b:SlotExtendedInfo i:nil="true"/>
+                     <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                     <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                     <b:SlotReservationReasonName/>
+                     <b:SlotsCount>0</b:SlotsCount>
+                     <b:StartTime>540</b:StartTime>
+                     <b:Status>Vacant</b:Status>
+                  </b:CalendarSlotSequence>
+                  <b:CalendarSlotSequence>
+                     <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                     <b:AllocatedToServiceName i:nil="true"/>
+                     <b:AppointmentId>0</b:AppointmentId>
+                     <b:AvatarId>0</b:AvatarId>
+                     <b:CalendarId>1609</b:CalendarId>
+                     <b:Date>2016-01-25T00:00:00</b:Date>
+                     <b:DisplayProperties i:nil="true"/>
+                     <b:Duration>60</b:Duration>
+                     <b:EndTime>780</b:EndTime>
+                     <b:FirstOrdinalNumber>0</b:FirstOrdinalNumber>
+                     <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
+                     <b:LockedByUserId>0</b:LockedByUserId>
+                     <b:ResourceId>0</b:ResourceId>
+                     <b:ServiceId>5</b:ServiceId>
+                     <b:SlotExtendedInfo i:nil="true"/>
+                     <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                     <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                     <b:SlotReservationReasonName/>
+                     <b:SlotsCount>0</b:SlotsCount>
+                     <b:StartTime>720</b:StartTime>
+                     <b:Status>Vacant</b:Status>
+                  </b:CalendarSlotSequence>
+                  <b:CalendarSlotSequence>
+                     <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                     <b:AllocatedToServiceName i:nil="true"/>
+                     <b:AppointmentId>0</b:AppointmentId>
+                     <b:AvatarId>0</b:AvatarId>
+                     <b:CalendarId>1609</b:CalendarId>
+                     <b:Date>2016-01-25T00:00:00</b:Date>
+                     <b:DisplayProperties i:nil="true"/>
+                     <b:Duration>120</b:Duration>
+                     <b:EndTime>930</b:EndTime>
+                     <b:FirstOrdinalNumber>0</b:FirstOrdinalNumber>
+                     <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
+                     <b:LockedByUserId>0</b:LockedByUserId>
+                     <b:ResourceId>0</b:ResourceId>
+                     <b:ServiceId>5</b:ServiceId>
+                     <b:SlotExtendedInfo i:nil="true"/>
+                     <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                     <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                     <b:SlotReservationReasonName/>
+                     <b:SlotsCount>0</b:SlotsCount>
+                     <b:StartTime>810</b:StartTime>
+                     <b:Status>Vacant</b:Status>
+                  </b:CalendarSlotSequence>
+               </b:Sequences>
+            </b:AvailableSequences>
+            <b:SuggestedSlots/>
+         </GetDynamicSuggestedSlots2Result>
+      </GetDynamicSuggestedSlots2Response>
+   </s:Body>
+</s:Envelope>

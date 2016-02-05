@@ -1,0 +1,21 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcService/GetQFlowAPIApplicationExceptionFault</a:Action>
+      <a:RelatesTo>uuid:21b86dbf-7311-4ea1-8f03-f6cf54060859</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <s:Fault>
+         <s:Code>
+            <s:Value>s:Sender</s:Value>
+         </s:Code>
+         <s:Reason>
+            <s:Text xml:lang="en-US">Record not found</s:Text>
+         </s:Reason>
+         <s:Detail>
+            <QFlowAPIApplicationException xmlns="http://schemas.datacontract.org/2004/07/QFlow.Web.API" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <ErrorNumber>51010</ErrorNumber>
+            </QFlowAPIApplicationException>
+         </s:Detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>

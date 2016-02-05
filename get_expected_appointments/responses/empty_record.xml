@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCustomer/GetExpectedAppointmentsResponse</a:Action>
+      <a:RelatesTo>uuid:70ef47d1-6ec4-4d3e-ab21-18a918f32072</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetExpectedAppointmentsResponse xmlns="http://www.qnomy.com/Services">
+         <GetExpectedAppointmentsResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"/>
+      </GetExpectedAppointmentsResponse>
+   </s:Body>
+</s:Envelope>

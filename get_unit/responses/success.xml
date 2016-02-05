@@ -1,0 +1,34 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcUnit/GetResponse</a:Action>
+      <a:RelatesTo>uuid:00c91584-d04e-4513-997b-ecd806a68d89</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetResponse xmlns="http://www.qnomy.com/Services">
+         <GetResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+            <b:Active>true</b:Active>
+            <b:Description/>
+            <b:ExtRef>SydneyCityExtRef</b:ExtRef>
+            <b:Id>1</b:Id>
+            <b:Name>Sydney</b:Name>
+            <b:ActiveDirectoryOU/>
+            <b:Address>26 Lee Street, Sydney NSW 2000</b:Address>
+            <b:CustomerPatience>0</b:CustomerPatience>
+            <b:DistributionAdjustmentFactor>0</b:DistributionAdjustmentFactor>
+            <b:IdPath>1.2.3</b:IdPath>
+            <b:IdleTimePct>0</b:IdleTimePct>
+            <b:Level>2</b:Level>
+            <b:MaxSeats>0</b:MaxSeats>
+            <b:ParentUnitId>2</b:ParentUnitId>
+            <b:Path>\NSW\Sydney</b:Path>
+            <b:ServiceTime>0</b:ServiceTime>
+            <b:SubTreeActive>True</b:SubTreeActive>
+            <b:TelNumber/>
+            <b:TimeZoneId>51</b:TimeZoneId>
+            <b:TypeId>3</b:TypeId>
+            <b:WaitingTimeTarget>0</b:WaitingTimeTarget>
+            <b:WorkingHoursId>1</b:WorkingHoursId>
+         </GetResult>
+      </GetResponse>
+   </s:Body>
+</s:Envelope>

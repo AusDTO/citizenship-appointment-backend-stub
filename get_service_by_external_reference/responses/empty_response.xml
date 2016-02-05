@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcService/GetByExtRefResponse</a:Action>
+      <a:RelatesTo>uuid:e7cbf14a-f607-4aff-8ec5-abe94a9b9ce0</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetByExtRefResponse xmlns="http://www.qnomy.com/Services">
+         <GetByExtRefResult xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance"/>
+      </GetByExtRefResponse>
+   </s:Body>
+</s:Envelope>

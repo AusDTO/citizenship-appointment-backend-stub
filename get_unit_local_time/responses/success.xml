@@ -1,0 +1,11 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcUnit/GetLocalTimeResponse</a:Action>
+      <a:RelatesTo>uuid:1f060c1b-cb1a-406e-acd7-d91e1ce4f213</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <GetLocalTimeResponse xmlns="http://www.qnomy.com/Services">
+         <GetLocalTimeResult>2016-02-06T14:52:33.437</GetLocalTimeResult>
+      </GetLocalTimeResponse>
+   </s:Body>
+</s:Envelope>

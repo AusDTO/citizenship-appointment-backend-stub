@@ -1,0 +1,28 @@
+<s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
+   <s:Header>
+      <a:Action s:mustUnderstand="1">http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher/fault</a:Action>
+      <a:RelatesTo>uuid:ce2147fc-978c-4142-b32e-0f5de762a12a</a:RelatesTo>
+   </s:Header>
+   <s:Body>
+      <s:Fault>
+         <s:Code>
+            <s:Value>s:Receiver</s:Value>
+            <s:Subcode>
+               <s:Value xmlns:a="http://schemas.microsoft.com/net/2005/12/windowscommunicationfoundation/dispatcher">a:InternalServiceFault</s:Value>
+            </s:Subcode>
+         </s:Code>
+         <s:Reason>
+            <s:Text xml:lang="en-US">Invalid Unit ID</s:Text>
+         </s:Reason>
+         <s:Detail>
+            <ExceptionDetail xmlns="http://schemas.datacontract.org/2004/07/System.ServiceModel" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
+               <HelpLink i:nil="true"/>
+               <InnerException i:nil="true"/>
+               <Message>Invalid Unit ID</Message>
+               <StackTrace>at QFlow.Library.Unit.GetLocalTime(Int32 unitId)</StackTrace>
+               <Type>QFlow.Library.QFlowException</Type>
+            </ExceptionDetail>
+         </s:Detail>
+      </s:Fault>
+   </s:Body>
+</s:Envelope>
