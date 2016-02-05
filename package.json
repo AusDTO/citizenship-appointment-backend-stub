@@ -1,0 +1,19 @@
+{
+  "name": "citizenship-appointment-backend-stub",
+  "version": "1.0.0",
+  "description": "Stub for the backend of Citizenship Appointment application",
+  "main": "",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "private": true,
+  "devDependencies": {
+    "nodemon": "^1.8.1"
+  },
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}
