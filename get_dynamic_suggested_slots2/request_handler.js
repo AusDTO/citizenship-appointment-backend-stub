@@ -8,23 +8,19 @@ var responseMsgs = {
     status: 200,
     file: path.join(__dirname, 'responses', 'success.xml')
   },
-  invalidCredentialsMessage: {
-    status: 500,
-    file: path.join(__dirname, 'responses', 'invalid_credentials.xml')
-  },
-  alreadySignedInMessage: {
-    status: 500,
-    file: path.join(__dirname, 'responses', 'already_signed_in.xml')
+  pastCalendarMessage: {
+    status: 200,
+    file: path.join(__dirname, 'responses', 'past_calendar.xml')
   }
 };
 
 function determineResponse(request){
   return responseMsgs.successMessage;
-};
+}
 
 module.exports = () => {
   return {
-    actionName: '<a:Action>http://www.qnomy.com/Services/IsvcAppUser/FormsSignIn</a:Action>',
+    actionName: '<a:Action>http://www.qnomy.com/Services/IsvcCalendar/GetDynamicSuggestedSlots2</a:Action>',
     getResponseData: (request) => determineResponse(request)
   }
-};
+}

@@ -1,21 +1,21 @@
 <s:Envelope xmlns:s="http://www.w3.org/2003/05/soap-envelope" xmlns:a="http://www.w3.org/2005/08/addressing">
    <s:Header>
       <a:Action s:mustUnderstand="1">http://www.qnomy.com/Services/IsvcCalendar/GetDynamicSuggestedSlots2Response</a:Action>
-      <a:RelatesTo>uuid:bacdae19-11da-43bf-a893-aa27cbec5bb1</a:RelatesTo>
+      <a:RelatesTo>uuid:a342b002-586f-40b4-916e-91b62bba814d</a:RelatesTo>
    </s:Header>
    <s:Body>
       <GetDynamicSuggestedSlots2Response xmlns="http://www.qnomy.com/Services">
          <GetDynamicSuggestedSlots2Result xmlns:b="http://schemas.datacontract.org/2004/07/QFlow.Library" xmlns:i="http://www.w3.org/2001/XMLSchema-instance">
             <b:AvailableSequences>
-               <b:CalendarDate>2016-03-04T00:00:00</b:CalendarDate>
-               <b:LocalTime>2016-02-05T15:10:40.54</b:LocalTime>
+               <b:CalendarDate>2016-02-24T00:00:00</b:CalendarDate>
+               <b:LocalTime>2016-02-08T11:16:34.383</b:LocalTime>
                <b:Segments>
                   <b:CalendarSegment>
                      <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AllowOnlySpecificAppointmentTypes>false</b:AllowOnlySpecificAppointmentTypes>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:CalendarSegmentId>1950</b:CalendarSegmentId>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:CalendarSegmentId>1800</b:CalendarSegmentId>
                      <b:ConcurrencyPercentage>0</b:ConcurrencyPercentage>
                      <b:CurrentDurationAvailable>80</b:CurrentDurationAvailable>
                      <b:CurrentTotalSegmentReservation>0</b:CurrentTotalSegmentReservation>
@@ -33,8 +33,8 @@
                      <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AllowOnlySpecificAppointmentTypes>false</b:AllowOnlySpecificAppointmentTypes>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:CalendarSegmentId>1951</b:CalendarSegmentId>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:CalendarSegmentId>1801</b:CalendarSegmentId>
                      <b:ConcurrencyPercentage>0</b:ConcurrencyPercentage>
                      <b:CurrentDurationAvailable>80</b:CurrentDurationAvailable>
                      <b:CurrentTotalSegmentReservation>0</b:CurrentTotalSegmentReservation>
@@ -52,8 +52,8 @@
                      <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AllowOnlySpecificAppointmentTypes>false</b:AllowOnlySpecificAppointmentTypes>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:CalendarSegmentId>1952</b:CalendarSegmentId>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:CalendarSegmentId>1802</b:CalendarSegmentId>
                      <b:ConcurrencyPercentage>0</b:ConcurrencyPercentage>
                      <b:CurrentDurationAvailable>100</b:CurrentDurationAvailable>
                      <b:CurrentTotalSegmentReservation>0</b:CurrentTotalSegmentReservation>
@@ -74,8 +74,8 @@
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AppointmentId>0</b:AppointmentId>
                      <b:AvatarId>0</b:AvatarId>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:Date>2016-03-04T00:00:00</b:Date>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:Date>2016-02-24T00:00:00</b:Date>
                      <b:DisplayProperties i:nil="true"/>
                      <b:Duration>80</b:Duration>
                      <b:EndTime>620</b:EndTime>
@@ -83,7 +83,7 @@
                      <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
                      <b:LockedByUserId>0</b:LockedByUserId>
                      <b:ResourceId>0</b:ResourceId>
-                     <b:ServiceId>1</b:ServiceId>
+                     <b:ServiceId>32</b:ServiceId>
                      <b:SlotExtendedInfo i:nil="true"/>
                      <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
                      <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
@@ -97,8 +97,8 @@
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AppointmentId>0</b:AppointmentId>
                      <b:AvatarId>0</b:AvatarId>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:Date>2016-03-04T00:00:00</b:Date>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:Date>2016-02-24T00:00:00</b:Date>
                      <b:DisplayProperties i:nil="true"/>
                      <b:Duration>80</b:Duration>
                      <b:EndTime>720</b:EndTime>
@@ -106,7 +106,7 @@
                      <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
                      <b:LockedByUserId>0</b:LockedByUserId>
                      <b:ResourceId>0</b:ResourceId>
-                     <b:ServiceId>1</b:ServiceId>
+                     <b:ServiceId>32</b:ServiceId>
                      <b:SlotExtendedInfo i:nil="true"/>
                      <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
                      <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
@@ -120,8 +120,8 @@
                      <b:AllocatedToServiceName i:nil="true"/>
                      <b:AppointmentId>0</b:AppointmentId>
                      <b:AvatarId>0</b:AvatarId>
-                     <b:CalendarId>23</b:CalendarId>
-                     <b:Date>2016-03-04T00:00:00</b:Date>
+                     <b:CalendarId>1767</b:CalendarId>
+                     <b:Date>2016-02-24T00:00:00</b:Date>
                      <b:DisplayProperties i:nil="true"/>
                      <b:Duration>100</b:Duration>
                      <b:EndTime>900</b:EndTime>
@@ -129,7 +129,7 @@
                      <b:LastOrdinalNumber>0</b:LastOrdinalNumber>
                      <b:LockedByUserId>0</b:LockedByUserId>
                      <b:ResourceId>0</b:ResourceId>
-                     <b:ServiceId>1</b:ServiceId>
+                     <b:ServiceId>32</b:ServiceId>
                      <b:SlotExtendedInfo i:nil="true"/>
                      <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
                      <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
@@ -140,7 +140,164 @@
                   </b:CalendarSlotSequence>
                </b:Sequences>
             </b:AvailableSequences>
-            <b:SuggestedSlots/>
+            <b:SuggestedSlots>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>540</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>560</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>580</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>600</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>640</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>660</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>680</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>700</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>800</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>820</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>840</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>860</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+               <b:DynamicCalendarSuggestedSlotItem>
+                  <b:AllocatedToServiceId>0</b:AllocatedToServiceId>
+                  <b:Duration>20</b:Duration>
+                  <b:LockedByUserId>0</b:LockedByUserId>
+                  <b:SlotReservationColorCode>0</b:SlotReservationColorCode>
+                  <b:SlotReservationReasonId>0</b:SlotReservationReasonId>
+                  <b:SlotReservationReasonName/>
+                  <b:StartTime>880</b:StartTime>
+                  <b:Status>Vacant</b:Status>
+                  <b:_AppointmentDuration>20</b:_AppointmentDuration>
+                  <b:_OrdinalNumber>0</b:_OrdinalNumber>
+               </b:DynamicCalendarSuggestedSlotItem>
+            </b:SuggestedSlots>
          </GetDynamicSuggestedSlots2Result>
       </GetDynamicSuggestedSlots2Response>
    </s:Body>
