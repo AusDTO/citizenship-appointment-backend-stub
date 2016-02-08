@@ -1,0 +1,11 @@
+language: node_js
+sudo: false
+notifications:
+  email: false
+deploy:
+  provider: heroku
+  app: citizenship-appointment-stub
+  on:
+    repo: AusDTO/citizenship-appointment-backend-stub
+  api_key:
+    secure: hTezMTeT0hge+leI8JYaO4mCdGNiRjtJnk/9h7RmqvEq1wyzVS7KYCFanWBwyUrziHDncOY3rGx9BxrjGABtirHInkQB+dEJzzQdVjkT5uboKyLmU5YAign/9GaprWMJDdeAnohfazAfVMQC/r7lCkK0KYY5yLvNaxq9hwgmVpOVQk/SWEJT6acxu5bRdAjf8mSZikWeAW6kpjTOn9UrscyhFriySbXF6KhnfT8i8jLddHNqs0lJV9eHhQ6JX+o8C2eBotQLn1MDxuQ9EfWP6LkapcjYSe2gccGwp6ZfgJwJBL07ZQHY6Brg3YNOnALItcF9baf0X9Ft/xjvR4538zv/yURacKpoOWv97ceMFjbmRIw9KVR4IN8WRryE9ZFqJQKuKRTtX/8fr7XfQBZnw+G9NG67TEZ9FK58XhBmvPMVy7R1Om/QS9KI7FF8omaVKM7vabseOOKdZy24JEZMlzonVV61NuN/yylizL4ouDWtLN8LHPDli3QB95h0N971ZGd78b/QZCQggeLH+SszlDVbHvPs1t62DyMuJqN9+3nPZ/RCsUVo4+5KM89F4Im0zhwT4jXokdDe7B6BqthtlXekICFsQpxwt4wX2+pB9zd0M4X3Vl88z52PpSm/HP4EMxYSbo+BrvPtTzeuKuUNiMPTirccsy3FoHJ436qMlkw=
